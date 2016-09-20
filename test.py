@@ -6,7 +6,7 @@
 import csv
 money = 0
 
-with open ('C:\\Users\\birdlin\\Dropbox\\Program_Workplace\\testPython\\testCSV.csv', 'r', encoding='utf-8') as fin:
+with open ('testCSV.txt', 'r', encoding='utf-8') as fin:
     with open ('newtestCSV.txt', 'w', encoding='utf-8') as fout :
         csvreader = csv.reader(fin, delimiter=',')
         csvwriter = csv.writer(fout, delimiter=',')
